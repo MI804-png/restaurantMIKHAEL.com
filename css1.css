@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 6000px;
+    position: relative;
+}
+
+.scroll {
+    background-color:orange;
+    scroll-behavior: smooth;
+    }
+
+.back{
+ background-image: url("5.png");
+background-size: cover;
+height: 750px;
+background-position: center;
+
+}
+
+.back ul{
+    text-align: center;
+    padding-left: 410px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.back li{
+    float: left;
+    padding-left: 50px;
+    overflow: hidden;
+    
+    padding-top: 50px;
+    
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.back li:hover{
+    color : whitesmoke;
+    cursor: pointer;
+    font-size: large;
+}
+/* media responsive 1 try */
+@media screen and (max-width: 1000px) {
+    .back a .back li {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+ #first{
+    color: orange;
+    margin-top: 100px;
+}
+
+.bigtext{
+    color: white;
+    
+    margin-top: 150px;
+    margin-right: 10px;
+    float: left;
+    font-size: 112px;
+}
+
+.bigtext:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+text-decoration: underline;
+cursor: pointer;
+    
+position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:100px; top:0px;}
+    50%  { left:100px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+.buttons {
+    margin-left: 475px;
+   padding-left: 25px;
+   padding-top: 30px; 
+   float: left;
+   position: inherit;
+}
+.buttons:hover {
+    
+     color: rgb(189, 184, 184);
+     
+     opacity: unset;
+   }
+.button1{
+padding-left: 25px;
+float: left;
+padding-top: 30px; 
+position: inherit;
+}
+.buttons button{
+    float: left;margin-left: auto;margin-right: auto;
+width: 200px;height: 50px;
+background-color: black;
+opacity: 0.7;
+
+
+}
+.buttons h5{
+text-transform: capitalize;
+color: white;
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 400;
+}
+.button1 button{
+    margin-left: auto;margin-right: auto;
+    width: 200px;height: 50px;
+    background-color: white;
+ opacity: 0.3;   
+   
+}
+.button1 h5{
+    text-transform: uppercase;
+color: black;
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 400;
+flood-opacity: unset;
+}
+.back2{
+
+background-image: url("10.png");
+width: 100%;
+background-size: cover;
+overflow: hidden;
+}
+.imageinback2{
+float: right;
+padding: 100px;
+
+}
+.back2 h1{
+color: orange;
+text-align: center;
+margin-top: 150px;
+font-size: 40px;
+}
+.logo{
+text-align: center;
+
+}
+.back2 h2{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+.back3{
+    background-image: url("15.png");
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    overflow: hidden;
+}
+.box{
+background-color: black;
+
+width: 550px;
+height: 550px;
+margin-left: 800px;
+overflow: hidden;
+opacity: 0.7;
+margin-top: 97px;
+}
+.back3 h5{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 40px;
+}
+.back3 h2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+.images{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.back4all{
+    background-image: url("10.png");
+background-size: cover;
+width: 100%;
+overflow: hidden;
+height: 950px;
+background-repeat: no-repeat;
+display: inline-block;
+}
+.back4{
+background-image: url("10.png");
+background-size: cover;
+width: 50%;
+overflow: hidden;
+height: 950px;
+float: left;
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+.back4 h1{
+    margin-left: 150px;
+    margin-top: 50px;
+    color: orange;
+}
+.back4 h3{
+    color: orange;
+    border-bottom: 1px solid rgb(141, 106, 40);
+    word-spacing: 300px;
+    width: 485px;
+    padding-bottom: 10px;
+}
+.back4 p{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.border{
+    border: 1px solid rgb(141, 106, 40);
+    width: 485px;
+}
+.back42{
+
+background-image: url("10.png");
+background-size: cover;
+width: 50%;
+overflow: hidden;
+height: 950px;
+display: inline-block;
+}
+
+.back42 h1{
+    margin-left: 150px;
+    margin-top: 50px;
+    color: orange;
+}
+.back42 h3{
+    color: orange;
+    border-bottom: 1px solid rgb(141, 106, 40);
+    word-spacing: 300px;
+    width: 530px;
+    padding-bottom: 10px;
+}
+.back42 p{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.border{
+    border: 1px solid rgb(141, 106, 40);
+    width: 530px;
+}
+
+.parola{
+    text-decoration: none;
+    color: white;
+    text-underline-offset: unset;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.parola:hover{
+    color: yellowgreen;
+    font-weight: bolder;
+}
+
+#link{
+color: white;
+text-decoration: none;
+font-size: larger;
+}
+
+#link:hover{
+    font-size: x-large;
+}
+
+
+
+
+.back5{
+    background-image: url("14.png");
+    background-size: 100%;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+.box2{
+    background-color: black;
+
+width: 690px;
+height: 480px;
+margin-left: 360px;
+overflow: hidden;
+opacity: 0.7;
+margin-top: 90px;
+}
+.box2 h1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    opacity: 1;
+}
+.back5 h2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    line-height: 40px;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    line-height: 60px; 
+    
+}
+.back6{
+    background-image: url("10.png");
+background-size: cover;
+width: 100%;
+overflow: hidden;
+height: 750px;
+}
+.image1{
+padding-top: 100px;    
+    padding-right: 30px;
+padding-left: 0;    
+float: left;
+
+}
+.image2{
+    padding-top: 100px;    
+    padding-right: 100px;
+
+float: left; 
+
+}
+.back6 h1{
+float: right;
+color: orange;
+margin-top: 100px;
+margin-right: 150px;
+display: block;
+padding-left: 60px;
+}
+.logo2{
+    float: right;
+margin-right: 140px;
+padding-left: 60px;
+}
+.back6 p{
+    text-align: center;
+    font-size: 20px;
+}
+.back6 label{
+    color: orange;
+}
+.back6 input{
+    width: 200px;
+    height: 50px;
+}
+.button2{
+
+    display: inline-block;;margin-left: auto;margin-right: auto;margin-top: 30px;
+width: 200px;height: 50px;
+background-color: orange;
+opacity: 1;
+text-align: center;
+margin-left: 800px;
+
+}
+.button2 h5{
+    color: white;
+    line-height: 50px;
+    font-size: large;
+}
+.back7{
+    width: 100%;
+    height: 550px;
+    background-color:rgb(15, 15, 15);
+    overflow: hidden;
+}
+.firstlist ul{
+text-align: center;
+}
+.firstlist li{
+color: white;
+font-size: 22px;
+text-transform: capitalize;
+display: inline-block;
+text-align: center;
+font-weight: 100;
+padding: 112px;
+padding-bottom: 0;
+}
+.secondlist ul{
+    text-align: center;
+    }
+    .secondlist li{
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    display: inline-block;
+    text-align: center;
+    font-weight: 100;
+    padding: 45px;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+    
+        .thirdlist h3{
+        color: white;
+        font-size: 15px;
+        text-transform: capitalize;
+        
+        text-align: center;
+        font-weight: 100;
+        line-height: 20px;
+        margin-left: 220px;
+        padding-right: 100px;
+        float: left;
+        }
+        .forthlist h3{
+            color: white;
+        font-size: 18px;
+        text-transform: capitalize;
+        text-align: center;
+        
+        font-weight: 100;
+        line-height: 20px;
+       float: left;
+       padding-right: 170px;
+        }
+        .fifthlist h3{
+            color: white;
+            font-size: 18px;
+            text-transform: capitalize;
+            text-align: center;
+            
+            font-weight: 100;
+            line-height: 20px;
+           display: inline-block;
+           padding-right: 150px;
+        }
+
+        /* newwwww */
+        #input1{
+            padding: 200px;
+            width: 100%;
+            position: absolute;
+            text-align: start;
+            font-size: xx-large;
+            font-weight: bolder;
+
+        }
+        .comment{
+            width: 100%;
+            background-color: yellow;
+            height: 600px;
+            overflow: hidden;
+            color: yellow;
+
+        }
+        /* newwwwwwwww */
+
+        footer {
+            position: relative;
+        }
+        
+        footer .chatbox{
+            position: fixed;
+            right: 20px;
+            bottom: 0px;
+            width: 300px;
+            height: 350px;
+            transition: all 0.5s ease-in-out;
+            background-color: gold;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            box-shadow: 5px 0px 5px 3px rgb(185, 170, 170);
+        }
+        
+        .chatbox-2 {
+            transform: translateY(300px);
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .chatbox .contianer{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        
+        
+        }
+        
+        .chatbox .contianer .top{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            margin: 20px 25px 10px 25px;
+        
+        }
+        
+        .chatbox .contianer .top h4{
+            color:rgb(54, 54, 54);
+        }
+        
+        .chatbox .contianer form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 10px 0px;
+            vertical-align: middle;
+        }
+        textarea {
+            width: 100%;
+            resize: none;
+            outline: none;
+            border: none;
+            padding: 1.2rem 0.5rem;
+            scroll-behavior: smooth;
+            text-align: left;
+            margin-bottom: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        
+        textarea::-webkit-scrollbar {
+            width: 1em;
+        }
+        
+        textarea::-webkit-scrollbar-track {
+            background-color: orange;
+        
+        }
+        
+        textarea::-webkit-scrollbar-thumb {
+          background-color: orange;
+          border-radius: 10px;
+        }
+        textarea::placeholder{
+            color:gray;
+        }
+        
+        #abanoub {
+            width: 20%;
+            height: 1.5rem;
+            outline: none;
+            border: none;
+            margin: 0 0.8rem;
+            background-color: lightgreen;
+            border-radius: 10px;
+            transition: all 0.5s;
+            border: 1px solid rgba(0, 128, 0, 0.692);
+            
+        }
+        #abanoub:hover{
+            transition: all 0.5s;
+            background-color: rgb(113, 192, 113);
+            box-shadow: 4px -3px 10px -3px green;
+        }
+        
+        #abanoub:active{
+            transition: all 0.5s;
+            background-color: rgb(113, 192, 113);
+            box-shadow: 4px -3px 10px -3px green;
+            margin: 0.3rem 1rem;
+        }
+        
+        .top a{
+            text-decoration: non;
+            color:rgb(54, 54, 54);
+            transition: color 0.5s;
+            padding: 0.5rem 0.7rem;
+            transition: all 0.8s ease-in-out;
+        }
+        .top a:hover{
+            border-radius: 1.5rem;
+            background-color: darkviolet;
+            color:white
+        }
+        
+        .top a:active {
+            border-radius: 0.5rem;
+            background-color: darkviolet;
+            color:white;
+        }
+        
+        .top .angleDown{
+            transform: rotateZ(180deg);
+            transition: all 0.8s ease-in-out;
+        }
+        .container3{
+            width: 23%;
+            margin: auto;
+        }
+
+         .back8{
+            height: 200px;
+            width: 100%;
+            overflow: hidden;
+            
+         }
+         .back8 ul li{
+            display: inline-block;
+            font-size: xx-large;
+            padding: 10px;
+            margin-top: 30px;
+            cursor: pointer;
+            box-shadow: 2px 2px red ;
+         }

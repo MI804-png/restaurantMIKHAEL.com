@@ -1,0 +1,10 @@
+*{
+margin: 0px;
+}
+.square{
+border:10px black solid;
+text-align: center;
+}
+.h1{
+    color: blue;
+}
